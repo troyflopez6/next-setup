@@ -1,0 +1,25 @@
+:root {
+    --navy-blue: #0B2447;
+    --blue: #19376D;
+    --light-blue: #576CBC;
+    --sky-blue: #A5D7E8;
+
+    --dark-primary: var(--navy-blue);
+    --dark-secondary: var(--blue);
+
+    --light-primary: var(--light-blue);
+    --light-secondary: var(--sky-blue);
+
+    // background colors
+    --bg-dark-primary: var(--dark-primary);
+    --bg-dark-secondary: var(--dark-secondary);
+
+    --bg-light-primary: var(--light-primary);
+    --bg-light-secondary: var(--light-secondary);
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../public/font/Roboto-Light.ttf');
+}

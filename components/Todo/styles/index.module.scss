@@ -1,0 +1,23 @@
+.todo {
+    padding: 8px;
+    border: 1px solid var(--light-primary);
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .button-container {
+        display: flex;
+        gap: 12px;
+
+        button {
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+            min-width: 56px;
+        }
+    }
+}
